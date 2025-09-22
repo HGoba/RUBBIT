@@ -8,7 +8,7 @@
   <div class="test">test css</div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .test {
   color: $priceColor;
 }

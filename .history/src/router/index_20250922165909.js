@@ -17,11 +17,11 @@ const router = createRouter({
       children: [
         {
           path: '/',
-          component: Home,
+          component: () => import('@/views/Home/index.vue'),
         },
         {
           path: '/category',
-          component: Category,
+          component: () => import('@/views/Category/index.vue'),
         }
       ]
     },

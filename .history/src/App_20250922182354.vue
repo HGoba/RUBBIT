@@ -8,10 +8,7 @@
   <div class="test">test css</div>
 </template>
 
-<style scoped lang="scss">
-.test {
-  color: $priceColor;
-}
+<style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
